@@ -65,8 +65,7 @@ public class Worker {
         contracts.add(contract);
     }
 
-    public void removeContract(HourContract contract) {
-        contracts.remove(contract);
+    public void removeContract(HourContract contract) { contracts.remove(contract);
     }
 
     public Double income(Integer year, Integer month) {
